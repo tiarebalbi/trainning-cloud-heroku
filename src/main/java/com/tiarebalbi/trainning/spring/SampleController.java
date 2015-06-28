@@ -1,7 +1,7 @@
 package com.tiarebalbi.trainning.spring;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Controller Sample
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Tiarê Balbi Bonamini
  * @version 1.0.0
  */
-@Controller
+@RestController
 public class SampleController {
 
     @RequestMapping("/")
